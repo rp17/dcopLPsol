@@ -1,0 +1,76 @@
+Problem:    lfp
+Rows:       34
+Columns:    10
+Non-zeros:  212
+Status:     OPTIMAL
+Objective:  d = 0.6666666667 (MINimum)
+
+   No.   Row name   St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 d            B       0.666667                             
+     2 total        NS             1             1             =      0.666667 
+     3 l0           B       0.333333            -0               
+     4 l1           B       0.333333            -0               
+     5 l2           B       0.666667            -0               
+     6 l3           B       0.333333            -0               
+     7 l4           B       0.333333            -0               
+     8 l5           B       0.666667            -0               
+     9 l6           B       0.333333            -0               
+    10 l7           B       0.333333            -0               
+    11 l8           NL             0            -0                    0.333333 
+    12 l9           B       0.666667            -0               
+    13 l10          B       0.333333            -0               
+    14 l11          B       0.333333            -0               
+    15 l12          B       0.333333            -0               
+    16 l13          B       0.333333            -0               
+    17 l14          NL             0            -0                    0.333333 
+    18 l15          B              0            -0               
+    19 l16          B       0.333333            -0               
+    20 l17          B       0.666667            -0               
+    21 l18          B       0.666667            -0               
+    22 l19          B       0.333333            -0               
+    23 l20          B       0.333333            -0               
+    24 l21          B       0.333333            -0               
+    25 l22          B       0.333333            -0               
+    26 l23          B       0.333333            -0               
+    27 l24          NL             0            -0                    0.333333 
+    28 l25          B       0.333333            -0               
+    29 l26          B       0.666667            -0               
+    30 l27          B       0.333333            -0               
+    31 l28          B       0.333333            -0               
+    32 l29          B              0            -0               
+    33 l30          B       0.333333            -0               
+    34 l31          B              0            -0               
+
+   No. Column name  St   Activity     Lower bound   Upper bound    Marginal
+------ ------------ -- ------------- ------------- ------------- -------------
+     1 x00[0]       B       0.666667             0             1 
+     2 x00[1]       NL             0             0             1         < eps
+     3 x00[2]       NL             0             0             1         < eps
+     4 x00[3]       NL             0             0             1         < eps
+     5 x00[4]       NL             0             0             1      0.333333 
+     6 x11[0]       NL             0             0             1         < eps
+     7 x11[1]       B       0.333333             0             1 
+     8 x11[2]       B       0.333333             0             1 
+     9 x11[3]       NL             0             0             1         < eps
+    10 x11[4]       B       0.333333             0             1 
+
+Karush-Kuhn-Tucker optimality conditions:
+
+KKT.PE: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.PB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+KKT.DE: max.abs.err = 1.11e-016 on column 2
+        max.rel.err = 4.76e-017 on column 5
+        High quality
+
+KKT.DB: max.abs.err = 0.00e+000 on row 0
+        max.rel.err = 0.00e+000 on row 0
+        High quality
+
+End of output
